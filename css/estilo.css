@@ -1,0 +1,44 @@
+body{
+	color:white;
+	background: url("../img/bg.jpg") no-repeat black;
+}
+header{
+	height: 200px;
+}
+nav a{
+	background: orange;
+	padding: 4px;
+	text-decoration: none;
+	color:white;
+	display: block;
+}
+nav a:hover{
+	background: gray;
+}	
+
+nav{
+	text-align: center;
+}
+#contenido article {
+	width: 46%;
+	float: left;
+	margin:1%;
+	/*border:1px solid white;*/ 
+	padding: .5%;
+}
+footer a{
+	color:white;
+
+}
+aside{
+	clear:both;
+}
+article img{
+	float: left;
+	margin:2%;
+}
+nav ul li{
+	display: inline-block;
+	width: 100px;
+
+}
